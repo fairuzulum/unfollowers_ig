@@ -50,7 +50,14 @@ Script Python untuk memeriksa daftar orang yang Anda ikuti di Instagram tetapi t
 ```
 
 ## 🚀 Cara Menggunakan
-1. Pastikan Anda memiliki Python terinstal di komputer Anda.
+1. Download Data Followers dan Following dari Instagram:
+- Masuk ke akun Instagram Anda.
+- Pilih Settings > Account Center > Your information and permissions.
+- Pilih Download your information > Download or transfer information.
+- Pilih Some of your information, pilih Followers and Following.
+- Pilih Date Range sebagai All Time dan formatnya JSON.
+- Klik Create File dan tunggu 5-10 menit hingga file tersedia untuk diunduh.
+- Setelah file siap, unduh dan ekstrak file tersebut.
 2. Simpan file JSON (`followers_1.json` dan `following.json`) di direktori yang sama dengan script Python.
 3. Jalankan script dengan perintah:
    ```bash
